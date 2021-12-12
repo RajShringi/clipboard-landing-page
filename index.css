@@ -127,6 +127,7 @@ header {
   margin-top: 3em;
 }
 .tools-container {
+  padding: 1em;
   text-align: center;
 }
 .tools {
@@ -213,7 +214,6 @@ footer nav img {
 
   .tools {
     display: flex;
-    align-items: center;
     justify-content: space-around;
   }
   .tool {
