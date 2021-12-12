@@ -6,7 +6,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: 18px;
 }
 
 :root {
@@ -23,6 +22,7 @@ body {
   background-position: top center;
   font-family: "Bai Jamjuree", sans-serif;
   line-height: 1.5;
+  font-size: 18px;
 }
 
 a {
@@ -94,6 +94,7 @@ header {
   border-radius: 45px;
   color: #fff;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 .btn-ios {
@@ -170,16 +171,19 @@ footer nav {
   font-size: 1.1rem;
 }
 
-footer nav img {
-  width: 30px;
-  height: 30px;
-  margin-left: 2em;
+.footer-nav-2 {
+  width: 60%;
 }
 
 .footer-nav-2 ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+
+footer li:hover {
+  color: var(--primaryColor);
 }
 
 @media screen and (min-width: 800px) {
@@ -228,6 +232,7 @@ footer nav img {
     align-items: center;
     justify-content: space-around;
   }
+
   .footer-nav-1 ul {
     display: flex;
     flex-wrap: wrap;
@@ -235,6 +240,10 @@ footer nav img {
   }
   .footer-nav-1 ul li {
     margin: 1.5em 1em;
+  }
+
+  .footer-nav-2 {
+    width: 10%;
   }
 
   .btn-ios {
