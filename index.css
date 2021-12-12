@@ -180,3 +180,64 @@ footer nav img {
   align-items: center;
   justify-content: space-between;
 }
+
+@media screen and (min-width: 800px) {
+  body {
+    background-image: url(images/bg-header-desktop.png);
+  }
+  main {
+    margin-top: 10em;
+  }
+  .features {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .features img {
+    position: relative;
+    left: -10%;
+    width: 50%;
+  }
+  .features-desc {
+    width: 500px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .tools-container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .tool {
+    width: 19%;
+  }
+  .companies {
+    flex-direction: row;
+    margin-bottom: 4em;
+  }
+  footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer-nav-1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+  .footer-nav-1 ul li {
+    margin: 1.5em 1em;
+  }
+
+  .btn-ios {
+    margin: 0 1em;
+  }
+}
